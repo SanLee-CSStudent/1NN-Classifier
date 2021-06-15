@@ -1,0 +1,28 @@
+Welcome to San Lee's Feature Selection Algorithm.
+Type in the name of the file to test: 
+Currently there is no data set.
+
+1. Forward Selection
+2. Backward Elimination
+Type the number of the algorithm you want to run: 
+1
+Select the dataset
+Or input the name of dataset in Resources directory.
+1. Small
+2. Large
+2
+Input the subset of features to test with.
+(Seprated with whitespace, default: 3 5 7)
+1 15 27
+Start training...
+Finished training with dataset of 40 features and 1000 instances
+Time taken in training dataset:    155ms
+
+Start normalizing...
+Finished normalizing.
+Time taken in normalizing dataset: 33ms
+
+Start evaluating with feature subset of {1 15 27}...
+The accuracy of feature subset {1 15 27} is 0.95 << I rounded
+Finished evaluating.
+Time taken in evaluating dataset:  307ms
